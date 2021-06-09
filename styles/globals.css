@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+* {
+	font-family: "Libre Baskerville", serif;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	color: #18181b;
+}
+
+h2 {
+	color: grey;
+	line-height: 1.5;
+}
+
+p {
+	font-size: 1rem;
+	letter-spacing: 0.5;
+	color: rgba(41, 41, 41, 1);
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: rgb(181, 126, 111);
+}
+
+span {
+	cursor: pointer;
+}
