@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					property="og:title"
-					content="Enes Kutlay - Front-end Developer Website"
+					content="Personal website and portolio"
 				/>
 				<meta property="og:type" content="website" />
 				<meta
