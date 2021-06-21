@@ -1,10 +1,10 @@
-import styles from "../styles/Home.module.css"
+import styles from "../styles/Home.module.css";
 const Loader = () => {
-    return (
-        <div>
-            <div className={styles.loader}></div>
-        </div>
-    );
-}
+  return (
+    <div>
+      <div className={styles.loader}></div>
+    </div>
+  );
+};
 
 export default Loader;
