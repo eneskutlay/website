@@ -19,44 +19,44 @@ const query = `
   `;
 
 class blog extends React.Component {
-	state = {
-		posts: [],
-		loading: true,
-	};
+    state = {
+        posts: [],
+        loading: true,
+    };
 
-	componentDidMount() {
-		this.fetchPosts();
-	}
+    componentDidMount() {
+        this.fetchPosts();
+    }
 
-	fetchPosts = async () => {
-		const response = await fetch("https://api.hashnode.com", {
-			method: "POST",
-			headers: {
-				"Content-type": "application/json",
-			},
-			body: JSON.stringify({ query }),
-		});
-		const ApiResponse = await response.json();
+    fetchPosts = async () => {
+        const response = await fetch("https://api.hashnode.com", {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json",
+            },
+            body: JSON.stringify({ query }),
+        });
+        const ApiResponse = await response.json();
 
-		this.setState({
-			posts: ApiResponse.data.user.publication.posts,
-			loading: false,
-		});
-	};
+        this.setState({
+            posts: ApiResponse.data.user.publication.posts,
+            loading: false,
+        });
+    };
 
-	render() {
-		if (this.state.loading) return <Loader />;
+    render() {
+        if (this.state.loading) return <Loader />;
 
-		return (
-			<div >
-				{this.state.posts.map((post, index) => (
-					<a key={index} target="_blank" href={`https://blog.eneskutlay.dev/${post.slug}`}>
-						<Post post={post} />
-					</a>
-				))}
-			</div>
-		);
-	}
+        return (
+            <div >
+                {this.state.posts.map((post, index) => (
+                    <a key={index} target="_blank" href={`https://blog.eneskutlay.dev/${post.slug}`}>
+                        <Post post={post} />
+                    </a>
+                ))}
+            </div>
+        );
+    }
 }
 
 export default blog;

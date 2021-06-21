@@ -10,7 +10,7 @@ const portfolio = () => {
 					You can reach the projects I made (and haven't deleted yet) from the
 					links below. You can see the responsive design logic, which I pay
 					special attention to while developing the projects, on the models, and
-					you can give feedback with the <a target="_blank" href="https://github.com/eneskutlay">Github</a> link. <br/>
+					you can give feedback with the <a target="_blank" href="https://github.com/eneskutlay">Github</a> link. <br />
 					<i>I really need this.</i>
 				</p>
 			</div>
