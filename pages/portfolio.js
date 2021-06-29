@@ -10,12 +10,11 @@ const portfolio = () => {
           You can reach the projects I made (and haven't deleted yet) from the
           links below. You can see the responsive design logic, which I pay
           special attention to while developing the projects, on the models, and
-          you can give feedback with the{" "}
+          you can give feedback with the
           <a target="_blank" href="https://github.com/eneskutlay">
-            Github
-          </a>{" "}
-          link. <br />
-          <i>I really need this.</i>
+            <b> Github link. </b>
+          </a>
+          <i> I really need this.</i>
         </p>
       </div>
       <div className={styles.projects}>
@@ -35,13 +34,13 @@ const portfolio = () => {
         />
         <Projects
           title="Responsive Personal Website"
-          details="Personal website | ReactJs | TypeItJs"
+          details="Personal website | NextJs | GraphQL API "
           src="/personal.gif"
           alt="me"
-          repo="https://github.com/eneskutlay/eneskutlay.github.io"
+          repo="https://github.com/eneskutlay/website"
         />
         <Projects
-          title="Desktop Task Manager App"
+          title="Desktop Simple and Basic Todo App"
           details="Desktop To-Do App | ElectronJs "
           src="/todo.gif"
           alt="me"
