@@ -1,173 +1,177 @@
 .container {
-	width: auto;
-	height: auto;
+  width: auto;
+  height: auto;
 }
 .navbar {
-	padding-top: 4%;
-	width: 50%;
-	margin: 2% auto /*!*/ auto auto;
+  padding-top: 4%;
+  width: 50%;
+  margin: 2% auto /*!*/ auto auto;
 }
 
 .navbar a {
-	padding-right: 3%;
-	float: right;
-	color: rgb(83, 83, 83);
-	font-weight: bold;
+  padding-right: 3%;
+  float: right;
+  color: rgb(83, 83, 83);
+  font-weight: bold;
 }
 
 .navbar span {
-	padding-right: 3%;
-	float: right;
-	color: rgb(83, 83, 83);
-	font-weight: bold;
+  padding-right: 3%;
+  float: right;
+  color: rgb(83, 83, 83);
+  font-weight: bold;
 }
 
 .navbar a:hover {
-	color: #795d56;
+  color: #795d56;
 }
 
 .navbar a:focus {
-	color: #b57e6f;
+  color: #b57e6f;
 }
 
 .main {
-	margin-top: 10%;
-	margin-right: auto;
-	margin-left: auto;
-	align-items: center;
-	width: 50%;
-	margin: 10% auto auto auto;
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  width: 50%;
+  margin: 10% auto auto auto;
 }
 
 .main .social a {
-	float: left;
+  float: left;
 }
 
 .contact {
-	align-items: center;
-	width: 50%;
-	margin: 10% auto auto auto;
+  align-items: center;
+  width: 50%;
+  margin: 10% auto auto auto;
 }
 
 .nohello {
-	margin-top: 10%;
+  margin-top: 10%;
 }
 
 .portfolio {
-	margin: 10% auto auto auto;
-	align-items: center;
-	width: 50%;
+  margin: 10% auto auto auto;
+  align-items: center;
+  width: 50%;
 }
 
 .projects {
-	width: 60%;
+  width: 60%;
 
-	display: grid;
-	grid-template-columns: 50% 50%;
-	margin: 6% auto 9% auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 6% auto 9% auto;
 }
 
 .projectscard {
-	text-align: center;
-	border: 1px solid #b24a30;
-	padding: 6%;
-	margin: 3%;
-	width: 20rem;
+  text-align: center;
+  border: 1px solid #b24a30;
+  padding: 6%;
+  margin: 3%;
+  width: 20rem;
 }
 
 .blog {
-	width: 40%;
-	margin: 6% auto 2% auto;
-	padding: 2%;
-	border: 1px solid #b24a30;
+  width: 40%;
+  margin: 6% auto 2% auto;
+  padding: 2%;
+  border: 1px solid #b24a30;
+}
+
+.blog p {
+  color: rgb(99, 98, 98);
 }
 
 .blog img {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .loader {
-	margin: 20% auto 2% auto;
-	border: 16px solid grey;
-	border-radius: 50%;
-	border-top: 16px solid #EFB4A1;
-	width: 120px;
-	height: 120px;
-	-webkit-animation: spin 2s linear infinite; /* Safari */
-	animation: spin 2s linear infinite;
+  margin: 20% auto 2% auto;
+  border: 16px solid grey;
+  border-radius: 50%;
+  border-top: 16px solid #efb4a1;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
 }
 
 @-webkit-keyframes spin {
-	0% {
-		-webkit-transform: rotate(0deg);
-	}
-	100% {
-		-webkit-transform: rotate(360deg);
-	}
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 1200px) {
-	.main {
-		width: auto;
-		height: auto;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	.navbar {
-		width: auto;
-		height: auto;
-	}
-	.navbar a {
-		padding-right: 3%;
-	}
-	.main {
-		width: auto;
-		height: auto;
-		margin-right: auto;
-		margin-left: auto;
-		padding: 0 2% 0 2%;
-	}
-	.contact {
-		width: auto;
-		height: auto;
-		margin-right: auto;
-		margin-left: auto;
-		padding: 1% 2% 0 2%;
-	}
-	.portfolio {
-		width: auto;
-		height: auto;
-		margin: 6% auto 2% auto;
-		padding: 4% 4% 2% 4%;
-	}
-	.projects {
-		width: auto;
-		height: auto;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	.projectscard {
-		width: auto;
-		height: auto;
-		margin: 6% auto 2% auto;
-		border: none;
-		box-shadow: none;
-		padding: 4%;
-	}
-	.blog {
-		width: 80%;
-		height: auto;
-		margin: 12% auto 4% auto;
-		padding: 2%;
-	}
+  .main {
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .navbar {
+    width: auto;
+    height: auto;
+  }
+  .navbar a {
+    padding-right: 3%;
+  }
+  .main {
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 2% 0 2%;
+  }
+  .contact {
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1% 2% 0 2%;
+  }
+  .portfolio {
+    width: auto;
+    height: auto;
+    margin: 6% auto 2% auto;
+    padding: 4% 4% 2% 4%;
+  }
+  .projects {
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .projectscard {
+    width: auto;
+    height: auto;
+    margin: 6% auto 2% auto;
+    border: none;
+    box-shadow: none;
+    padding: 4%;
+  }
+  .blog {
+    width: 80%;
+    height: auto;
+    margin: 12% auto 4% auto;
+    padding: 2%;
+  }
 }

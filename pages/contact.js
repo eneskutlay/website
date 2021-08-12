@@ -18,11 +18,9 @@ const contact = () => {
       <p>
         We are now ready to communicate. You can send me an email by clicking on
         my e-mail address. I usually try to respond within 24 hours.
-        <span>
-          <a style={{ color: "#b24a30" }} href="mailto:contact@eneskutlay.dev">
-            contact@eneskutlay.dev
-          </a>
-        </span>
+        <a target="_blank" href="mailto:contact@eneskutlay.dev">
+          <b> contact@eneskutlay.dev </b>
+        </a>
         Your browser may not allow pop-ups. In this case, you need to send me a
         manual mail.
       </p>
