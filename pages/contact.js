@@ -10,6 +10,7 @@ const contact = () => {
         <a
           href="https://nohello.net/"
           target="_blank"
+          rel="noopener"
           style={{ color: "#B57E6F" }}
         >
           🚀
@@ -18,7 +19,7 @@ const contact = () => {
       <p>
         We are now ready to communicate. You can send me an email by clicking on
         my e-mail address. I usually try to respond within 24 hours.
-        <a target="_blank" href="mailto:contact@eneskutlay.dev">
+        <a target="_blank" rel="noopener" href="mailto:contact@eneskutlay.dev">
           <b> contact@eneskutlay.dev </b>
         </a>
         Your browser may not allow pop-ups. In this case, you need to send me a

@@ -11,7 +11,7 @@ const portfolio = () => {
           links below. You can see the responsive design logic, which I pay
           special attention to while developing the projects, on the models, and
           you can give feedback with the
-          <a target="_blank" href="https://github.com/eneskutlay">
+          <a target="_blank" rel="noopener" href="https://github.com/eneskutlay">
             <b> Github link. </b>
           </a>
           <i> I really need this.</i>

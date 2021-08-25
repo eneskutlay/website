@@ -9,7 +9,7 @@ const Projects = (props) => {
       <p>
         {props.details}
         <span>
-          <a target="_blank" href={props.repo}>
+          <a target="_blank" rel="noopener" href={props.repo}>
             GitHub
           </a>
         </span>

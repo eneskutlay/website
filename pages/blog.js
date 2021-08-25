@@ -53,6 +53,7 @@ class blog extends React.Component {
             key={index}
             target="_blank"
             href={`https://blog.eneskutlay.dev/${post.slug}`}
+            rel="noopener"
           >
             <Post post={post} />
           </a>
