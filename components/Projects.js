@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Projects = (props) => {
   const myLoader = ({ src, width, quality }) => {
-    return `https://example.com/${src}?w=${width}&q=${quality || 75}`
+    return `https://eneskutlay.dev/${src}?w=${width}&q=${quality || 75}`
   }
   return (
     <div className={styles.projectscard}>
