@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
         <meta property = "og:type" content = "website" />
         <meta property = "og:title" content = " Enes Kutlay - Personal Website" />
         <meta property = "og:description" content = "Hi 👋 I am Enes. I am interested in web development and specifically front-end development." />
-        <meta property = "og:image" content = "/og.jpeg" />
+        <meta property = "og:image" content = "/og.png" />
         <meta property = "og:url" content = "https://eneskutlay.dev/" />
         <meta property = "og:site_name" content = "Enes Kutlay" />
         <link rel="icon" href="/me.ico" />
