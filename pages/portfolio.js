@@ -40,7 +40,7 @@ const portfolio = () => {
           repo="https://github.com/eneskutlay/website"
         />
         <Projects
-          title="Desktop Simple and Basic Todo App"
+          title="Desktop Basic Todo App"
           details="Desktop To-Do App | ElectronJs "
           src="/todo.gif"
           alt="me"
