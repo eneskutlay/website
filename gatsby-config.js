@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Enes Kutlay Personal Website`,
-    siteTitleAlt: `Enes Kutlay Personal Website | Blog`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+    siteTitle: `Enes Kutlay`,
+    siteTitleAlt: `Enes Kutlay`,
+    siteHeadline: `Enes Kutlay | Personal Website and Blog`,
     siteUrl: `https://eneskutlay.dev`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteDescription: `My name is Enes Kutlay, and I'm a Computer Science student at Ecole 42. Some of my main interest areas are JavaScript, C, Smart Contracts, Blockchain and Cybersecurity. Here, on my website, you’ll find my blog posts and open source projects.`,
     siteLanguage: `en`,
     siteImage: `/banner.png`,
-    author: `@lekoarts_de`,
+    author: `@eneskutlay from @lekoarts_de`,
   },
   plugins: [
     {
@@ -33,12 +33,16 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/enesevski`,
+            name: `Mail`,
+            url: `mailto:contact@eneskutlay.dev`,
           },
           {
-            name: `Homepage`,
-            url: `https://eneskutlay.dev`,
+            name: `GitHub`,
+            url: `https://github.com/eneskutlay/`,
+          },
+          {
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/eneskutlay/`, 
           },
         ],
       },
