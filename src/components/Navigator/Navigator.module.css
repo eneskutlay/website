@@ -1,6 +1,6 @@
 .main {
   width: 90vw;
-  margin: 12% auto 0 auto;
+  margin: 10% auto 0 auto;
 }
 
 .nav {
@@ -24,11 +24,11 @@
 }
 
 @media only screen and (min-width: 1024px) {
- .main {
-  margin: 6% auto 0 auto;
- }
+  .main {
+    margin: 6% auto 0 auto;
+  }
   .nav {
-      display: flex;
+    display: flex;
   }
   .navChild {
     width: 100%;

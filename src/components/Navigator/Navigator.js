@@ -1,8 +1,19 @@
 import * as React from "react";
 import * as styles from "./Navigator.module.css";
-import { Link } from "gatsby";
+import { Link, useStaticQuery, graphql } from "gatsby";
 
-const Hero = (props) => {
+const Hero = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          navFirst
+          navSec
+          navThr
+        }
+      }
+    }
+  `)
   return (
     <div className={styles.main}>
       <div className={styles.nav}>
@@ -12,7 +23,7 @@ const Hero = (props) => {
           activeStyle={{ color: "#6666ff", backgroundColor: "#efefff" }}
           activeClassName="active"
         >
-          📁 Projects
+          {data.site.siteMetadata.navFirst}
         </Link>
         <Link
           className={styles.navChild}
@@ -20,7 +31,7 @@ const Hero = (props) => {
           activeStyle={{ color: "#ff512e", backgroundColor: "#ffede9" }}
           activeClassName="active"
         >
-          📝 Write
+          {data.site.siteMetadata.navSec}
         </Link>
         <Link
           className={styles.navChild}
@@ -28,9 +39,8 @@ const Hero = (props) => {
           activeStyle={{ color: "#1fb8ff", backgroundColor: "#e8f8ff" }}
           activeClassName="active"
         >
-          ➡️ Links
+          {data.site.siteMetadata.navThr}
         </Link>
-
       </div>
     </div>
   );

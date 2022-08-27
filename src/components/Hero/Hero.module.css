@@ -1,39 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;500;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;500;800&display=swap");
 
-.main{
-    width: 90vw;
-    margin: 4% auto 0 auto;
-    cursor: default;
+.main {
+  width: 90vw;
+  margin: 4% auto 0 auto;
+  cursor: default;
 }
 
 .mainInfo {
-    font-size: 24px;
-    font-family: 'Be Vietnam Pro';
-    font-weight: 500;
-    color: #a7a5a5;
-    line-height: 1.45;
+  font-size: 24px;
+  font-family: "Be Vietnam Pro";
+  font-weight: 500;
+  color: #a7a5a5;
+  line-height: 1.45;
 }
 
 .nameSpan {
-    font-weight: 800;
-    color: black;
+  font-weight: 800;
+  color: black;
 }
 
 .schoolSpan {
-    color: #6666ff;
+  color: #6666ff;
 }
 
-.learnSpan{
-    color: #088a1d;
+.learnSpan {
+  color: #088a1d;
 }
 
 .socialSpan {
-    color: #1fb8ff;
+  color: #1fb8ff;
 }
 
-
 @media only screen and (min-width: 1024px) {
-    .main {
-        width: 70vw;
-    }
+  .main {
+    width: 70vw;
   }
+}
