@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 86vw;
+    margin: 4% auto 6% auto;
+}
+
+.main img {
+    border-radius: 41px;
+    border-radius: 41px;
+    min-width: 50px;
+    margin-right: 1rem;
+}
+
+.main a {
+    margin: 2% 6% auto auto;
+    color: #1DA1F2;
+    opacity: 0.6;
+    text-decoration: none;
+}
