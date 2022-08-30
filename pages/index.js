@@ -1,11 +1,13 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import client from "../client";
-import Card from "../components/card";
-import Hero from "../components/Hero"
+import Card from "../components/Card";
+import Hero from "../components/Hero";
 
-export default function Home({ post }) {
+
+export default function Home({ post, details }) {
   console.log(post);
+  console.log(details);
   return (
     <div className={styles.root}>
       <Head>
@@ -14,7 +16,10 @@ export default function Home({ post }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
-        <Hero />
+        <Hero
+          detailsTitle={details[0].title}
+          detailInfo={details[0].description}
+        />
         <Card
           title="Recent Posts"
           postTitle={post[0].title}
@@ -27,13 +32,16 @@ export default function Home({ post }) {
 }
 
 export async function getStaticProps() {
+  const details = await client.fetch(
+    `*[_type == "details"] | order(_createdAt desc)`
+  );
   const post = await client.fetch(
     `*[_type == "post"] | order(_createdAt desc)`
   );
-
   return {
     props: {
       post,
+      details,
     },
   };
 }
