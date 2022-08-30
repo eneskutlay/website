@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import client from "../client";
 import Card from "../components/card";
+import Hero from "../components/Hero"
 
 export default function Home({ post }) {
   console.log(post);
@@ -13,7 +14,7 @@ export default function Home({ post }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
-        <h1>Hello World</h1>
+        <Hero />
         <Card
           title="Recent Posts"
           postTitle={post[0].title}
