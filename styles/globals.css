@@ -9,12 +9,14 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  all: none;
+  cursor: pointer;
 }
 
 * {
   box-sizing: border-box;
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -24,3 +26,4 @@ a {
     background: black;
   }
 }
+*/

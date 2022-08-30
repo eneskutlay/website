@@ -1,20 +1,10 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { createClient } from "next-sanity";
+import client from "../client";
+import Card from "../components/card";
 
-
-const client = createClient({
-  projectId: "eltl721x",
-  dataset: "production",
-  apiVersion: "2022-03-25",
-  useCdn: false
-});
-
-
-
-export default function Home({animals}) {
-  console.log(animals)
-
+export default function Home({ post }) {
+  console.log(post);
   return (
     <div className={styles.root}>
       <Head>
@@ -23,18 +13,26 @@ export default function Home({animals}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
-        <h2>{animals[0].name} its a {animals[0].type}</h2>
+        <h1>Hello World</h1>
+        <Card
+          title="Recent Posts"
+          postTitle={post[0].title}
+          postTitle1={post[1].title}
+          postTitle2={post[2].title}
+        />
       </div>
     </div>
   );
 }
 
 export async function getStaticProps() {
-  const animals = await client.fetch(`*[_type == "animal"]`);
+  const post = await client.fetch(
+    `*[_type == "post"] | order(_createdAt desc)`
+  );
 
   return {
     props: {
-      animals
-    }
+      post,
+    },
   };
 }

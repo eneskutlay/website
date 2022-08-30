@@ -1,0 +1,20 @@
+.root {
+  width: 100vw;
+  margin: auto;
+}
+
+.container {
+  background-color: #fff;
+  width: 94vw;
+  max-width: 650px;
+  height: auto;
+  color: black;
+  margin: auto;
+}
+
+@media only screen and (min-width: 780px) {
+  .container {
+    width: 80vw;
+    margin: auto;
+  }
+}

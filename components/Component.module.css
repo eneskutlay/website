@@ -1,0 +1,57 @@
+.root {
+  background-color: #f9fafb;
+  opacity: 1;
+  width: 94vw;
+  height: auto;
+  border-radius: 0.5rem;
+  max-width: 650px;
+}
+
+.container {
+  padding: 1.5rem;
+  margin: 2% auto 1% auto;
+}
+
+.cardHeader {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+.cardHeader a {
+  margin: auto 0 auto 0;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  border-radius: 0.5rem;
+}
+
+.cardHeader a:hover {
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.cardDetails {
+  color: black;
+  opacity: 0.75;
+  margin: 0.75rem auto 1rem auto;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.cardDetails a {
+  margin: 0.25rem;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+}
+
+.cardDetails a:hover {
+  background-color: #eeeff0;
+}
+
+@media only screen and (min-width: 780px) {
+  .root {
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
