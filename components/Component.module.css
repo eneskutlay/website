@@ -5,11 +5,11 @@
   height: auto;
   border-radius: 0.5rem;
   max-width: 650px;
+  margin: 1.6rem 0;
 }
 
 .container {
-  padding: 1.5rem;
-  margin: 2% auto 1% auto;
+  padding: 0.5rem 1rem 0 1rem;
 }
 
 .cardHeader {
@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   font-weight: 300;
+  padding: 0 0.6rem;
 }
 
 .cardHeader a {
@@ -30,22 +31,32 @@
   border: 1px solid rgba(0, 0, 0, 0.397);
 }
 
-.cardDetails {
+.realChild {
   color: black;
   opacity: 0.75;
-  margin: 0.75rem auto 1rem auto;
+  margin: 0.1rem 0.5rem;
+  padding: 0.1rem 0.5rem;
   display: grid;
   grid-template-columns: auto;
+  cursor: pointer;
 }
 
-.cardDetails a {
+.cardChild {
   margin: 0.25rem;
-  padding: 0.7rem;
+  padding: 0;
   border-radius: 0.2rem;
   color: #000;
+  padding: 0.6rem 0.6rem 0 0.6rem;
 }
 
-.cardDetails a:hover {
+.cardChild p {
+  color: #b2b6bd;
+  margin: 0;
+  font-weight: 300;
+  padding: 0.6rem 0;
+}
+
+.cardChild:hover {
   background-color: #eeeff0;
 }
 
@@ -75,10 +86,12 @@
   max-width: 750px;
   color: #777e89;
 }
+
 .navbarUl {
   max-width: 650px;
   margin: 0.5rem 0;
 }
+
 .navbarLi {
   padding: 0.3rem 0;
   border-radius: 0.5rem;
@@ -91,15 +104,21 @@
     width: 80vw;
     margin-right: auto;
     margin-left: auto;
+    margin: 1.6rem 0;
   }
 
   .navbarLi {
-    padding: 0.4rem 0.62rem;
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
     border-radius: 0.5rem;
     cursor: pointer;
   }
 
   .navbarLi:hover {
     background-color: #eeeff0;
+  }
+
+  .hero {
+    margin: 4.2rem auto 1.5rem auto;
   }
 }

@@ -1,13 +1,10 @@
 import styles from "./Component.module.css";
 import { navLinks } from "../src/data";
-import Image from "next/image";
 import Link from "next/link";
-
 
 export default function Header() {
   return (
     <header className={styles.header}>
-
       <nav className={styles.navbar}>
         {navLinks.map((link, index) => {
           return (

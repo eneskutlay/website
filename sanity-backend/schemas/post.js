@@ -9,14 +9,24 @@ export default {
       title: "Title",
     },
     {
+      title: "Slug",
       name: "slug",
       type: "slug",
-      title: "Slug",
+      options: {
+        source: "title",
+        maxLength: 200, // will be ignored if slugify is set
+        slugify: (input) =>
+          input.toLowerCase().replace(/\s+/g, "-").slice(0, 200),
+      },
     },
     {
-      title: 'description',
-      name: 'description',
-      type: 'text'
-    }
-  ]
+      title: "Release date",
+      name: "date",
+      type: "date",
+      options: {
+        dateFormat: "DD-MM-YYYY",
+        calendarTodayLabel: "Today",
+      },
+    },
+  ],
 };
