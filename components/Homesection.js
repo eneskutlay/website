@@ -5,7 +5,7 @@ const Homesection = ({ children, topic }) => {
     <div className={styles.root}>
       <div className={styles.container}>
         <div className={styles.cardHeader}>
-          <h4>{topic}</h4>
+          <h2>{topic}</h2>
           <a href="/" target="_blank">
             View All
           </a>

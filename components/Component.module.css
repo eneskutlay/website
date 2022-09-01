@@ -20,6 +20,13 @@
   padding: 0 0.6rem;
 }
 
+.cardHeader h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  scroll-margin-top: 4rem;
+}
+
 .cardHeader a {
   margin: auto 0 auto 0;
   padding: 0.6rem 1rem;
@@ -35,7 +42,7 @@
   color: black;
   opacity: 0.75;
   margin: 0.1rem 0.5rem;
-  padding: 0.1rem 0.5rem;
+  padding: 0.6rem 0.5rem;
   display: grid;
   grid-template-columns: auto;
   cursor: pointer;
@@ -50,10 +57,13 @@
 }
 
 .cardChild p {
-  color: #b2b6bd;
+  color: #484b51;
   margin: 0;
   font-weight: 300;
   padding: 0.6rem 0;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  word-break: break-word;
 }
 
 .cardChild:hover {
@@ -61,7 +71,7 @@
 }
 
 .hero {
-  margin: 2.5rem auto 1.5rem auto;
+  padding: 2.5rem auto;
 }
 
 .hero h1 {
@@ -69,7 +79,7 @@
 }
 
 .heroDetails {
-  color: #777e89;
+  color: #4a4d54;
   line-height: 1.75;
   margin-bottom: 1.5rem;
 }
@@ -97,6 +107,7 @@
   border-radius: 0.5rem;
   cursor: pointer;
   text-align: center;
+  color: #4a4d54;
 }
 
 @media only screen and (min-width: 770px) {
