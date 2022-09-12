@@ -1,6 +1,6 @@
 import styles from "./Component.module.css";
 import { navLinks } from "../src/data";
-import Link from "next/link";
+import Link from "./ActiveLink";
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
         {navLinks.map((link, index) => {
           return (
             <ul className={styles.navbarUl}>
-              <Link href={link.path}>
+              <Link activeClassName={styles.navbarLu} href={link.path}>
                 <li className={styles.navbarLi} key={index}>
                   {link.name}
                 </li>
