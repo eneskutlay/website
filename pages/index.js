@@ -19,7 +19,14 @@ export default function Home({ post, details, code }) {
         <Homesection topic="Recent Posts">
           {post.map((post) => {
             const { title, date, slug } = post;
-            return <List key={`post_${slug}`} title={title} detail={date} />;
+            return (
+              <List
+                key={`post_${slug}`}
+                title={title}
+                detail={date}
+                url={`/writing/${slug}`}
+              />
+            );
           })}
         </Homesection>
         <Homesection topic="Some Codes">

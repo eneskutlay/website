@@ -20,6 +20,14 @@ export default {
       },
     },
     {
+      title: "Poster",
+      name: "poster",
+      type: "image",
+      options: {
+        hotspot: true, // <-- Defaults to false
+      },
+    },
+    {
       title: "Release date",
       name: "date",
       type: "date",

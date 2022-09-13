@@ -57,7 +57,7 @@
 }
 
 .cardChild p {
-  color: #484b51;
+  color: #a0a4ac;
   margin: 0;
   font-weight: 300;
   padding: 0.6rem 0;
@@ -110,11 +110,29 @@
   color: #4a4d54;
 }
 
+.blog {
+  width: 100%;
+}
+
+.postList {
+  margin: 1.5rem;
+}
+.postList h1 {
+  margin-bottom: 2rem;
+}
+
+.postSection {
+  padding: 0.3rem 0.5rem;
+}
+
+.postSection p {
+  color: #abafb7;
+  margin-top: -1rem;
+}
+
 @media only screen and (min-width: 770px) {
   .root {
     width: 80vw;
-    margin-right: auto;
-    margin-left: auto;
     margin: 1.6rem 0;
   }
 
@@ -124,6 +142,9 @@
     border-radius: 0.5rem;
     cursor: pointer;
   }
+  .activeNavbar {
+    background-color: #eeeff0;
+  }
 
   .navbarLi:hover {
     background-color: #eeeff0;
@@ -131,5 +152,23 @@
 
   .hero {
     margin: 4.2rem auto 1.5rem auto;
+  }
+  .blog {
+    max-width: 750px;
+    margin: 3rem auto;
+  }
+  .postList {
+    margin: 3.1rem;
+  }
+  .postList h1 {
+    margin-bottom: 2.5rem;
+  }
+  .postSection {
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .postSection:hover {
+    background-color: #eeeff0;
   }
 }
