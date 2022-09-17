@@ -8,9 +8,9 @@ export default function Header() {
       <nav className={styles.navbar}>
         {navLinks.map((link, index) => {
           return (
-            <ul className={styles.navbarUl}>
+            <ul className={styles.navbarUl} key={index}>
               <Link activeClassName={styles.activeNavbar} href={link.path}>
-                <li className={styles.navbarLi} key={index}>
+                <li className={styles.navbarLi}>
                   {link.name}
                 </li>
               </Link>
