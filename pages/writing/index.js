@@ -1,9 +1,8 @@
 import client from "../../client";
-import PostItem from "../../components/PostItem";
-import WriteSection from "../../components/WriteSection";
+import { PostItem, WriteSection } from "../../components";
 
 export default function Writing({ post }) {
-console.log(post)
+  console.log(post);
   return (
     <WriteSection topic="Write">
       {post.map((post) => {
@@ -21,10 +20,9 @@ console.log(post)
   );
 }
 
-//The query will change, not just the last 3 posts. All posts will be called
 export async function getStaticProps() {
   const post = await client.fetch(
-    `*[_type == "post"] | order(_createdAt desc)[0..2]`
+    `*[_type == "post"] | order(_createdAt desc)`
   );
 
   return {

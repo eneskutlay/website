@@ -1,12 +1,25 @@
-// [slug].js
 import client from "../../client";
+import styles from "../../styles/Post.module.css";
 
 const Post = ({ post }) => {
-  const title = post;
+  console.log(post);
   return (
-    <div>
-      <h1>{title}</h1>
-    </div>
+    <article className={styles.root}>
+      <h1>{post.title}</h1>
+      {post.body.map((body) => {
+        return (
+          <div key={body._key}>
+            {body.style === "normal" && <p>{body.children[0].text}</p>}
+            {body.style === "h1" && <h1>{body.children[0].text}</h1>}
+            {body.style === "h2" && <h2>{body.children[0].text}</h2>}
+            {body.style === "h3" && <h3>{body.children[0].text}</h3>}
+            {body.style === "blockquote" && (
+              <blockquote>{body.children[0].text}</blockquote>
+            )}
+          </div>
+        );
+      })}
+    </article>
   );
 };
 
@@ -21,26 +34,12 @@ export async function getStaticPaths() {
   };
 }
 
-//The query will change, not just the last 3 posts. All posts will be called
-export async function getStaticProps() {
-  const post = await client.fetch(
-    `*[_type == "post"] | order(_createdAt desc)[0..2]`
-  );
-
-  return {
-    props: {
-      post,
-    },
-  };
-}
-
-/*
 export async function getStaticProps(context) {
   // It's important to default the slug so that it doesn't return "undefined"
   const { slug = "" } = context.params;
   const post = await client.fetch(
     `
-    *[_type == "post" && slug.current == $slug][0]{title, "name": author->name}
+    *[_type == "post" && slug.current == $slug][0]
   `,
     { slug }
   );
@@ -50,5 +49,5 @@ export async function getStaticProps(context) {
     },
   };
 }
-*/
+
 export default Post;
