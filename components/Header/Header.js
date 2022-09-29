@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import { navLinks } from "../../src/navLinks";
+import { navLinks } from "../../src/data";
 import Link from "../ActiveLink";
 
 export default function Header() {

@@ -3,6 +3,6 @@ import Hero from "./Hero/Hero";
 import Homesection from "./HomeSection/HomeSection";
 import PostItem from "./PostItem/PostItem";
 import WriteSection from "./WriteSection/WriteSection";
-import ListItem from "./List/ListItem";
+import ListItem from "./ListItem/ListItem";
 
 export {Header, Hero, Homesection, PostItem, WriteSection, ListItem};
