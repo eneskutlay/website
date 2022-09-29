@@ -1,0 +1,15 @@
+.root {
+    background-color: #fff;
+    width: 94vw;
+    max-width: 650px;
+    height: auto;
+    color: #000;
+    margin: auto;
+}
+
+@media only screen and (min-width: 770px) {
+    .root {
+        margin: 3.5rem auto;
+    }
+  }
+  
