@@ -7,11 +7,11 @@
 }
 
 .cardChild p {
-  color: #000;
-  opacity: 0.75;
+  color: #3b3b3bc4;
   margin: 0;
-  font-weight: 300;
-  padding: 0.6rem 0;
+  font-weight: 400;
+  opacity: 0.8;
+  padding: 0.6rem 0 0.8rem 0;
   line-height: 1.25rem;
   font-size: 0.875rem;
   word-break: break-word;

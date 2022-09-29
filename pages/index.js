@@ -16,7 +16,7 @@ export default function Home({ post, details, code }) {
           detailsTitle={details[0].title}
           detailInfo={details[0].description}
         />
-        <Homesection viewUrl= {"/writing"} topic="Recent Posts">
+        <Homesection viewUrl={"/writing"} topic="Recent Posts">
           {post.map((post) => {
             const { title, date, slug } = post;
             return (
@@ -29,7 +29,7 @@ export default function Home({ post, details, code }) {
             );
           })}
         </Homesection>
-        <Homesection  viewUrl= {"/code"} topic="Some Codes">
+        <Homesection viewUrl={"/code"} topic="Some Codes">
           {code.map((code) => {
             const { title, description, href } = code;
             return (
