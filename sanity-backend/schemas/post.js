@@ -1,12 +1,12 @@
 export default {
+  title: "Post",
   name: "post",
   type: "document",
-  title: "Post",
   fields: [
     {
       name: "title",
-      type: "string",
       title: "Title",
+      type: "string",
     },
     {
       title: "Slug",
@@ -20,14 +20,6 @@ export default {
       },
     },
     {
-      title: "Poster",
-      name: "poster",
-      type: "image",
-      options: {
-        hotspot: true, // <-- Defaults to false
-      },
-    },
-    {
       title: "Release date",
       name: "date",
       type: "date",
@@ -36,5 +28,28 @@ export default {
         calendarTodayLabel: "Today",
       },
     },
+    {
+      title: "Poster",
+      name: "poster",
+      type: "image",
+      options: {
+        hotspot: true, // <-- Defaults to false
+      },
+    },
+    {
+      name: "body",
+      title: "Body",
+      type: "array",
+      of: [
+        {
+          type: "block",
+        },
+      ],
+    },
   ],
+  preview: {
+    select: {
+      title: "title",
+    },
+  },
 };
