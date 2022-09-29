@@ -3,7 +3,7 @@ import PostItem from "../../components/PostItem";
 import WriteSection from "../../components/WriteSection";
 
 export default function Writing({ post }) {
-  console.log(post);
+console.log(post)
   return (
     <WriteSection topic="Write">
       {post.map((post) => {
@@ -13,7 +13,7 @@ export default function Writing({ post }) {
             key={`post_${slug}`}
             postTitle={title}
             postDate={date}
-            url={`/writing/${slug}`}
+            url={`/writing/${slug.current}`}
           />
         );
       })}
