@@ -1,0 +1,22 @@
+.blog {
+  width: 100%;
+}
+
+.postList {
+  margin: 1.5rem;
+}
+.postList h1 {
+  margin-bottom: 2rem;
+}
+@media only screen and (min-width: 770px) {
+  .blog {
+    max-width: 750px;
+    margin: 3rem auto;
+  }
+  .postList {
+    margin: 3.1rem;
+  }
+  .postList h1 {
+    margin-bottom: 2.5rem;
+  }
+}

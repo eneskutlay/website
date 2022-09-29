@@ -1,6 +1,6 @@
-import styles from "./Component.module.css";
-import { navLinks } from "../src/data";
-import Link from "./ActiveLink";
+import styles from "./Header.module.css";
+import { navLinks } from "../../src/navLinks";
+import Link from "../ActiveLink";
 
 export default function Header() {
   return (
@@ -10,9 +10,7 @@ export default function Header() {
           return (
             <ul className={styles.navbarUl} key={index}>
               <Link activeClassName={styles.activeNavbar} href={link.path}>
-                <li className={styles.navbarLi}>
-                  {link.name}
-                </li>
+                <li className={styles.navbarLi}>{link.name}</li>
               </Link>
             </ul>
           );

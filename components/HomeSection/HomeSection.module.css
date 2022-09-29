@@ -1,0 +1,56 @@
+.root {
+  background-color: #f9fafb;
+  opacity: 1;
+  width: 94vw;
+  height: auto;
+  border-radius: 0.5rem;
+  max-width: 650px;
+  margin: 1.6rem 0;
+}
+
+.container {
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.cardHeader {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  padding: 0 0.6rem;
+}
+
+.cardHeader h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  scroll-margin-top: 4rem;
+}
+
+.cardHeader a {
+  margin: auto 0 auto 0;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  border-radius: 0.5rem;
+}
+
+.cardHeader a:hover {
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.realChild {
+  color: black;
+  opacity: 0.75;
+  margin: 0.1rem 0.5rem;
+  padding: 0.6rem 0.5rem;
+  display: grid;
+  grid-template-columns: auto;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 770px) {
+  .root {
+    width: 80vw;
+    margin: 1.6rem 0;
+  }
+}

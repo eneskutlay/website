@@ -1,6 +1,6 @@
-import styles from "./Component.module.css";
+import styles from "./WriteSection.module.css";
 
-const WriteSection = ({ children, topic }) => {
+export default function WriteSection({ children, topic }) {
   return (
     <div className={styles.blog}>
       <div className={styles.postList}>
@@ -9,6 +9,4 @@ const WriteSection = ({ children, topic }) => {
       </div>
     </div>
   );
-};
-
-export default WriteSection;
+}

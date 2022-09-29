@@ -1,0 +1,19 @@
+.hero {
+  padding: 2.5rem auto;
+}
+
+.hero h1 {
+  line-height: 2rem;
+}
+
+.heroDetails {
+  color: #000;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 770px) {
+  .hero {
+    margin: 4.2rem auto 1.5rem auto;
+  }
+}

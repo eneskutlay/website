@@ -1,0 +1,19 @@
+.postSection {
+  padding: 0.3rem 0.5rem;
+}
+
+.postSection p {
+  color: #abafb7;
+  margin-top: -1rem;
+}
+
+@media only screen and (min-width: 770px) {
+  .postSection {
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .postSection:hover {
+    background-color: #eeeff0;
+  }
+}

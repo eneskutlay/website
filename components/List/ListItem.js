@@ -1,6 +1,6 @@
 import styles from "./Component.module.css";
 
-export default function List(props) {
+export default function ListItem(props) {
   return (
     <a className={styles.cardChild} href={props.url} target="_blank">
       {props.title}

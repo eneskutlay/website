@@ -1,4 +1,4 @@
-import styles from "./Component.module.css";
+import styles from "./PostItem.module.css";
 import Link from "next/link";
 
 export default function PostItem(props) {

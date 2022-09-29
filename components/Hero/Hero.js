@@ -1,4 +1,4 @@
-import styles from "./Component.module.css";
+import styles from "./Hero.module.css";
 
 export default function Hero(props) {
   return (
