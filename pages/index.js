@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import client from "../client";
-import { Hero, List, Homesection } from "../components/";
+import { Hero, ListItem, Homesection } from "../components/";
 
 export default function Home({ post, details, code }) {
   return (
@@ -16,24 +16,24 @@ export default function Home({ post, details, code }) {
           detailsTitle={details[0].title}
           detailInfo={details[0].description}
         />
-        <Homesection topic="Recent Posts">
+        <Homesection viewUrl= {"/writing"} topic="Recent Posts">
           {post.map((post) => {
             const { title, date, slug } = post;
             return (
-              <List
+              <ListItem
                 key={`post_${slug}`}
                 title={title}
                 detail={date}
-                url={`/writing/${slug}`}
+                url={`/writing/${slug.current}`}
               />
             );
           })}
         </Homesection>
-        <Homesection topic="Some Codes">
+        <Homesection  viewUrl= {"/code"} topic="Some Codes">
           {code.map((code) => {
             const { title, description, href } = code;
             return (
-              <List
+              <ListItem
                 key={`code_${href}`}
                 title={title}
                 url={href}
