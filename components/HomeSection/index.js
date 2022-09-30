@@ -6,7 +6,9 @@ export default function HomeSection({ children, topic, viewUrl }) {
       <div className={styles.container}>
         <div className={styles.cardHeader}>
           <h2>{topic}</h2>
-          <a href={viewUrl}>View All</a>
+          <a target="_blank" rel="noopener noreferrer" href={viewUrl}>
+            View All
+          </a>
         </div>
       </div>
       <div className={styles.realChild}>{children}</div>
