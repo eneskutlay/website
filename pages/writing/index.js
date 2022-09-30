@@ -7,6 +7,7 @@ export default function Writing({ post }) {
     <WriteSection topic="Write">
       {post.map((post) => {
         const { title, date, slug } = post;
+
         return (
           <PostItem
             key={`post_${slug}`}
@@ -21,9 +22,7 @@ export default function Writing({ post }) {
 }
 
 export async function getStaticProps() {
-  const post = await client.fetch(
-    `*[_type == "post"] | order(_createdAt desc)`
-  );
+  const post = await client.fetch(`*[_type == "post"] | order(date desc)`);
 
   return {
     props: {

@@ -48,11 +48,9 @@ export default function Home({ post, details, code }) {
 }
 
 export async function getStaticProps() {
-  const details = await client.fetch(
-    `*[_type == "details"] | order(_createdAt desc)`
-  );
+  const details = await client.fetch(`*[_type == "details"]`);
   const post = await client.fetch(
-    `*[_type == "post"] | order(_createdAt desc)[0..2]`
+    `*[_type == "post"] | order(date desc)[0..2]`
   );
   const code = await client.fetch(
     `*[_type == "code"] | order(_createdAt desc)`
