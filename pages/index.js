@@ -29,7 +29,10 @@ export default function Home({ post, details, code }) {
             );
           })}
         </Homesection>
-        <Homesection viewUrl={"/code"} topic="Some Codes">
+        <Homesection
+          viewUrl={"https://github.com/eneskutlay"}
+          topic="Some Codes"
+        >
           {code.map((code) => {
             const { title, description, href } = code;
             return (
