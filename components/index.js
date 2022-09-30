@@ -5,4 +5,4 @@ import PostItem from "./PostItem";
 import WriteSection from "./WriteSection";
 import ListItem from "./ListItem";
 
-export {Header, Hero, Homesection, PostItem, WriteSection, ListItem};
+export { Header, Hero, Homesection, PostItem, WriteSection, ListItem };
