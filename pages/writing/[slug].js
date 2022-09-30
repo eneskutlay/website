@@ -1,17 +1,36 @@
 import client from "../../client";
 import styles from "../../styles/Post.module.css";
-import { Fragment } from "react";
-import { renderBody } from "../../lib/renderBody";
+import { PortableText } from "@portabletext/react";
+import imageUrlBuilder from "@sanity/image-url";
+
+function urlFor(source) {
+  return imageUrlBuilder(client).image(source);
+}
+
+const componentsConf = {
+  types: {
+    image: ({ value }) => {
+      if (!value?.asset?._ref) {
+        return null;
+      }
+      return (
+        <figure>
+          <img alt={value.alt || " "} loading="lazy" src={urlFor(value)} />
+        </figure>
+      );
+    },
+  },
+};
 
 export default function Post({ post }) {
+  const { body = [] } = post;
   return (
-    <article className={styles.root}>
-      <h1>{post.title}</h1>
-      {post.body.map((body) => {
-        console.log(body);
-        return <Fragment key={body._key}>{renderBody(body)}</Fragment>;
-      })}
-    </article>
+    <div className={styles.root}>
+      <article>
+        <h1>{post.title}</h1>
+        <PortableText value={body} components={componentsConf} />
+      </article>
+    </div>
   );
 }
 
