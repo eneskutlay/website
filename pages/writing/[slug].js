@@ -1,27 +1,19 @@
 import client from "../../client";
 import styles from "../../styles/Post.module.css";
+import { Fragment } from "react";
+import { renderBody } from "../../lib/renderBody";
 
-const Post = ({ post }) => {
-  console.log(post);
+export default function Post({ post }) {
   return (
     <article className={styles.root}>
       <h1>{post.title}</h1>
       {post.body.map((body) => {
-        return (
-          <div key={body._key}>
-            {body.style === "normal" && <p>{body.children[0].text}</p>}
-            {body.style === "h1" && <h1>{body.children[0].text}</h1>}
-            {body.style === "h2" && <h2>{body.children[0].text}</h2>}
-            {body.style === "h3" && <h3>{body.children[0].text}</h3>}
-            {body.style === "blockquote" && (
-              <blockquote>{body.children[0].text}</blockquote>
-            )}
-          </div>
-        );
+        console.log(body);
+        return <Fragment key={body._key}>{renderBody(body)}</Fragment>;
       })}
     </article>
   );
-};
+}
 
 export async function getStaticPaths() {
   const paths = await client.fetch(
@@ -49,5 +41,3 @@ export async function getStaticProps(context) {
     },
   };
 }
-
-export default Post;
