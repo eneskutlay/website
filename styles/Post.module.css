@@ -1,15 +1,37 @@
 .root {
-    background-color: #fff;
-    width: 94vw;
-    max-width: 650px;
-    height: auto;
-    color: #000;
-    margin: auto;
+  background-color: #fff;
+  width: 94vw;
+  max-width: 650px;
+  height: auto;
+  color: #000;
+  margin: auto;
+  line-height: 1.75rem;
+  font-size: 1.1rem;
+}
+
+/* renderBody Style */
+.root a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.root code {
+  background-color: #e8eaed;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: #000;
+  font-size: monospace;
+}
+.root figure {
+  margin: 1.5rem;
+}
+.root img {
+  width: 100%;
+  border-radius: 25px;
 }
 
 @media only screen and (min-width: 770px) {
-    .root {
-        margin: 3.5rem auto;
-    }
+  .root {
+    margin: 3.5rem auto;
   }
-  
+}
