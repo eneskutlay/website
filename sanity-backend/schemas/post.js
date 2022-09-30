@@ -44,6 +44,9 @@ export default {
         {
           type: "block",
         },
+        {
+          type: "image",
+        },
       ],
     },
   ],
