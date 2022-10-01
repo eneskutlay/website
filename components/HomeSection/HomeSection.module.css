@@ -1,5 +1,5 @@
 .root {
-  background-color: #f9fafb;
+  background-color: #2a2a2f;
   opacity: 1;
   width: 94vw;
   height: auto;
@@ -13,7 +13,7 @@
 }
 
 .cardHeader {
-  color: black;
+  color: rgb(250 250 250 / 0.85);
   display: flex;
   justify-content: space-between;
   font-weight: 300;
@@ -30,17 +30,16 @@
 .cardHeader a {
   margin: auto 0 auto 0;
   padding: 0.6rem 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.192);
+  border: 1px solid rgb(250 250 250 / 0.75);
   border-radius: 0.5rem;
 }
 
 .cardHeader a:hover {
-  border: 1px solid rgba(0, 0, 0, 0.397);
+  border: 1px solid rgba(250 250 250 / 0.85);
 }
 
 .realChild {
-  color: black;
-  opacity: 0.75;
+  opacity: 0.85;
   margin: 0.1rem 0.5rem;
   padding: 0.6rem 0.5rem;
   display: grid;

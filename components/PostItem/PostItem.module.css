@@ -1,9 +1,10 @@
 .postSection {
   padding: 0.3rem 0.5rem;
+  color: rgb(250 250 250 / 0.85);
 }
 
 .postSection p {
-  color: #abafb7;
+  color: rgb(250 250 250 / 0.5);
   margin-top: -1rem;
 }
 
@@ -14,6 +15,6 @@
     cursor: pointer;
   }
   .postSection:hover {
-    background-color: #eeeff0;
+    background-color: #2a2a2f;
   }
 }
