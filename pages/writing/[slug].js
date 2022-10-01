@@ -2,6 +2,7 @@ import client from "../../client";
 import styles from "../../styles/Post.module.css";
 import { PortableText } from "@portabletext/react";
 import imageUrlBuilder from "@sanity/image-url";
+import Link from "next/link";
 
 function urlFor(source) {
   return imageUrlBuilder(client).image(source);
@@ -30,6 +31,9 @@ export default function Post({ post }) {
         <h1>{post.title}</h1>
         <PortableText value={body} components={componentsConf} />
       </article>
+      <Link href="/writing">
+        <a className={styles.back}>← Go back</a>
+      </Link>
     </div>
   );
 }
