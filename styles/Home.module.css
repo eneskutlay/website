@@ -3,12 +3,23 @@
   max-width: 650px;
   height: auto;
   color: #fafafa;
-  margin: auto;
 }
+
+/* About */
+.aboutMeSections {
+  margin-bottom: 1.2rem;
+  line-height: 1.75;
+  font-size: 1.1rem;
+}
+
+.aboutMeSections a {
+  text-decoration: underline;
+}
+
 
 @media only screen and (min-width: 780px) {
   .container {
     width: 80vw;
-    margin: auto;
+    margin: 2rem auto;
   }
 }

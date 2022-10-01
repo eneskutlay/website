@@ -4,7 +4,7 @@ import { PostItem, WriteSection } from "../../components";
 export default function Writing({ post }) {
   console.log(post);
   return (
-    <WriteSection topic="Write">
+    <WriteSection topic="Writing">
       {post.map((post) => {
         const { title, date, slug } = post;
 

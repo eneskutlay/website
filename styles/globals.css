@@ -12,6 +12,8 @@ a {
   text-decoration: none;
   all: none;
   cursor: pointer;
+  text-underline-offset: 0.3rem;
+  text-decoration-color: #65656f;
 }
 
 * {
