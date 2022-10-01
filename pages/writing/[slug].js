@@ -1,27 +1,9 @@
-import client from "../../client";
+import client from "../../lib/client";
 import styles from "../../styles/Post.module.css";
 import { PortableText } from "@portabletext/react";
-import imageUrlBuilder from "@sanity/image-url";
+import { componentsConf } from "../../lib/portableComponent";
 import Link from "next/link";
 
-function urlFor(source) {
-  return imageUrlBuilder(client).image(source);
-}
-
-const componentsConf = {
-  types: {
-    image: ({ value }) => {
-      if (!value?.asset?._ref) {
-        return null;
-      }
-      return (
-        <figure>
-          <img alt={value.alt || " "} loading="lazy" src={urlFor(value)} />
-        </figure>
-      );
-    },
-  },
-};
 
 export default function Post({ post }) {
   const { body = [] } = post;
@@ -45,7 +27,7 @@ export async function getStaticPaths() {
 
   return {
     paths: paths.map((slug) => ({ params: { slug } })),
-    fallback: true,
+    fallback: false,
   };
 }
 

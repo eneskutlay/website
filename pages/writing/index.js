@@ -1,8 +1,7 @@
-import client from "../../client";
+import client from "../../lib/client";
 import { PostItem, WriteSection } from "../../components";
 
 export default function Writing({ post }) {
-  console.log(post);
   return (
     <WriteSection topic="Writing">
       {post.map((post) => {
@@ -10,7 +9,7 @@ export default function Writing({ post }) {
 
         return (
           <PostItem
-            key={`post_${slug}`}
+            key={`post_${slug.current}`}
             postTitle={title}
             postDate={date}
             url={`/writing/${slug.current}`}

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import client from "../client";
+import client from "../lib/client";
 import { Hero, ListItem, Homesection } from "../components/";
 
 export default function Home({ post, details, code }) {
@@ -21,7 +21,7 @@ export default function Home({ post, details, code }) {
             const { title, date, slug } = post;
             return (
               <ListItem
-                key={`post_${slug}`}
+                key={`post_${slug.current}`}
                 title={title}
                 detail={date}
                 url={`/writing/${slug.current}`}
