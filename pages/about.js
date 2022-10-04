@@ -3,8 +3,8 @@ import styles from "../styles/Home.module.css";
 export default function About() {
   return (
     <div className={styles.container}>
-      <h1>About Me</h1>
       <div className={styles.aboutMeSections}>
+        <h1>About Me</h1>
         <p>
           Hello 👋 my name is Enes, and I am interested in web development. I
           completed my computer programming associate degree in 2021. I am

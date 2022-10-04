@@ -4,12 +4,11 @@ import { PortableText } from "@portabletext/react";
 import { componentsConf } from "../../lib/portableComponent";
 import Link from "next/link";
 
-
 export default function Post({ post }) {
   const { body = [] } = post;
   return (
     <div className={styles.root}>
-      <article>
+      <article className={styles.article}>
         <h1>{post.title}</h1>
         <PortableText value={body} components={componentsConf} />
       </article>

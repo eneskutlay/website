@@ -1,13 +1,15 @@
 .container {
-  width: 94vw;
+  width: 90vw;
   max-width: 650px;
   height: auto;
   color: #fafafa;
+  margin: auto;
 }
 
 /* About */
+
 .aboutMeSections {
-  margin-bottom: 1.2rem;
+  margin: 0.5rem 0.6rem;
   line-height: 1.75;
   font-size: 1.1rem;
 }
@@ -15,7 +17,6 @@
 .aboutMeSections a {
   text-decoration: underline;
 }
-
 
 @media only screen and (min-width: 780px) {
   .container {
