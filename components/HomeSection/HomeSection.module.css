@@ -41,10 +41,15 @@
 .realChild {
   opacity: 0.85;
   margin: 0.1rem 0.5rem;
-  padding: 0.6rem 0.5rem;
+  padding: 0.8rem 0.5rem;
   display: grid;
   grid-template-columns: auto;
   cursor: pointer;
+}
+
+.realChild h3 {
+  margin: 5rem auto;
+  opacity: 0.5;
 }
 
 @media only screen and (min-width: 770px) {
