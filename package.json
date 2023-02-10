@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@portabletext/react": "^1.0.6",
+    "@portabletext/react": "^2.0.1",
     "@sanity/image-url": "^1.0.1",
     "next": "12.2.5",
     "next-sanity": "^0.8.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "eslint": "8.23.0",
