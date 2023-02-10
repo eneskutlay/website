@@ -16,8 +16,8 @@ If you haven't heard of [Sanity.io](https://www.sanity.io/)  before, you can vis
 ```bash
 $ cd sanity-backend/
 $ npm install
+$ npx @sanity/cli init 
 $ npx @sanity/cli start
-$ sanity start
 ```
 If you have completed all these steps without any problems, Sanity Studio should be running on the ***3333*** port and NextJs should be running on the ***3000*** port.
 

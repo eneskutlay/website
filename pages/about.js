@@ -22,14 +22,14 @@ export default function About() {
           <h1>About Me</h1>
           <p>
             Hello 👋 my name is Enes, and I am interested in web development. I
-            completed my computer programming associate degree in 2021. I am
-            currently continuing my student career at{" "}
+            completed my computer programming associate degree in 2021. Then I
+            studied at{" "}
             <a
               href="https://42istanbul.com.tr/en/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ecole42.
+              Ecole42 for a year.
             </a>
           </p>
         </div>
@@ -59,7 +59,7 @@ export default function About() {
         </div>
         <div className={styles.aboutMeSections}>
           <p>
-            You can check out my <a href="#">CV</a> and my{" "}
+            You can check out my <a href="https://drive.google.com/file/d/1pBdbcH13gSjvUzIFw7b42u4rZyQZNVGD/view?usp=sharing" download>CV</a> and my{" "}
             <a
               href="https://github.ecom/eneskutlay"
               target="_blank"
