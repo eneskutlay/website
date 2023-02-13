@@ -1,11 +1,13 @@
 import "../styles/globals.css";
 import App from "next/app";
 import PageLayout from "../layout/PageLayout";
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
   return (
     <PageLayout>
       <Component {...pageProps} />
+      <Analytics />
     </PageLayout>
   );
 }
