@@ -35,18 +35,17 @@ export default function About() {
         </div>
         <div className={styles.aboutMeSections}>
           <p>
-            In addition to my education process, I continue to develop myself
-            with open-source projects. I plan to continue my professional career
-            as a front-end developer. Between April 2022 and May 2022, I
-            completed my first work experience of two months at{" "}
+            After ending my education career, I completed my first work
+            experience as an Intern Front-end developer at{" "}
             <a
               href="https://path.com.tr"
               target="_blank"
               rel="noopener noreferrer"
             >
-              PATH
+              PATH.
             </a>{" "}
-            company as an intern front-end developer.
+            Btw I am not currently working. I keep learning JavaScript, NextJS,
+            and Digital design.
           </p>
         </div>
         <div className={styles.aboutMeSections}>
@@ -59,7 +58,15 @@ export default function About() {
         </div>
         <div className={styles.aboutMeSections}>
           <p>
-            You can check out my <a href="https://drive.google.com/file/d/1pBdbcH13gSjvUzIFw7b42u4rZyQZNVGD/view?usp=sharing" download>CV</a> and my{" "}
+            If you are hiring, you can check out my{" "}
+            <a
+              href="https://read.cv/eneskutlay"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV
+            </a>{" "}
+            and my{" "}
             <a
               href="https://github.ecom/eneskutlay"
               target="_blank"
@@ -67,7 +74,7 @@ export default function About() {
             >
               GitHub
             </a>{" "}
-            profile if you are hiring.
+            profile.
           </p>
         </div>
       </div>

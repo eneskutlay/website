@@ -11,7 +11,7 @@
 .aboutMeSections {
   margin: 0.5rem 0.6rem;
   line-height: 1.75;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .aboutMeSections a {
@@ -22,5 +22,10 @@
   .container {
     width: 80vw;
     margin: 2rem auto;
+  }
+  .aboutMeSections {
+    margin: 1.5rem auto;
+    font-size: 1.1rem;
+    line-height: 2;
   }
 }
