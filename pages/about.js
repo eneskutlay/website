@@ -52,7 +52,7 @@ export default function About() {
           <p>
             I love reviewing beautiful designs, taking notes, and writing code.
             If you want to contact me, feel free to send an e-mail to{" "}
-            <a href="mailto:contact@eneskutlay.dev">contact@eneskutlay.dev</a>.
+            <a href="mailto:hi@eneskutlay.dev">hi@eneskutlay.dev</a>.
             I enjoy meeting and chatting with new people.
           </p>
         </div>
