@@ -21,44 +21,41 @@ export default function About() {
         <div className={styles.aboutMeSections}>
           <h1>About Me</h1>
           <p>
-            Hello 👋 my name is Enes, and I am interested in web development. I
-            completed my computer programming associate degree in 2021. Then I
-            studied at{" "}
+            Hey there! I&apos;m Enes, a web developer who enjoys building simple
+            and efficient websites using JavaScript, Next.js, and CSS. After
+            completing my computer programming degree in 2021, I spent a year at{" "}
             <a
               href="https://42istanbul.com.tr/en/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ecole42 for a year.
-            </a>
-          </p>
-        </div>
-        <div className={styles.aboutMeSections}>
-          <p>
-            After ending my education career, I completed my first work
-            experience as an Intern Front-end developer at{" "}
+              Ecole42
+            </a>{" "}
+            to refine my skills in software development and the C language. I
+            also gained experience as an intern front-end developer at{" "}
             <a
               href="https://path.com.tr"
               target="_blank"
               rel="noopener noreferrer"
             >
-              PATH.
+              PATH
             </a>{" "}
-            Btw I am not currently working. I keep learning JavaScript, NextJS,
-            and Digital design.
+            for 2 months.
           </p>
         </div>
         <div className={styles.aboutMeSections}>
           <p>
-            I love reviewing beautiful designs, taking notes, and writing code.
-            If you want to contact me, feel free to send an e-mail to{" "}
-            <a href="mailto:hi@eneskutlay.dev">hi@eneskutlay.dev</a>.
-            I enjoy meeting and chatting with new people.
+            I have a passion for creating elegant designs and writing clean
+            code. If you want to get in touch with me, shoot me an email at{" "}
+            <a href="mailto:hi@eneskutlay.dev">hi@eneskutlay.dev</a>. I&apos;m
+            always happy to meet new people and talk tech.
           </p>
         </div>
         <div className={styles.aboutMeSections}>
           <p>
-            If you are hiring, you can check out my{" "}
+            My main goal is to continually improve and gain more work
+            experience. If you&apos;re looking for a junior front-end developer,
+            check out my{" "}
             <a
               href="https://read.cv/eneskutlay"
               target="_blank"
@@ -66,7 +63,7 @@ export default function About() {
             >
               CV
             </a>{" "}
-            and my{" "}
+            and{" "}
             <a
               href="https://github.ecom/eneskutlay"
               target="_blank"
@@ -74,7 +71,7 @@ export default function About() {
             >
               GitHub
             </a>{" "}
-            profile.
+            profile for examples of my work.
           </p>
         </div>
       </div>
