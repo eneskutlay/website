@@ -8,27 +8,24 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build"
+    "build": "sanity build",
+    "dev": "sanity dev"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^2.34.0",
-    "@sanity/core": "^2.34.0",
-    "@sanity/default-layout": "^2.34.0",
-    "@sanity/default-login": "^2.34.0",
-    "@sanity/desk-tool": "^2.34.0",
-    "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/vision": "^2.34.0",
-    "eslint": "^8.6.0",
-    "prop-types": "^15.7",
-    "react": "^17.0",
-    "react-dom": "^17.0",
-    "sanity-plugin-markdown": "^2.1.1",
-    "styled-components": "^5.2.0"
+    "@sanity/default-layout": "^2.35.7",
+    "@sanity/eslint-config-studio": "^2.0.1",
+    "@sanity/vision": "^3.7.1",
+    "eslint": "^8.36.0",
+    "prop-types": "^15.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "^3.7.1",
+    "sanity-plugin-markdown": "^4.1.0",
+    "styled-components": "^5.3.9"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/eneskutlay/website.git"
