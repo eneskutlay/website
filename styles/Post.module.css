@@ -8,7 +8,7 @@
 }
 
 .article {
-  margin: auto 0.75rem;
+  margin: auto 0.75rem 1.2rem 0.75rem;
 }
 
 /* renderBody Style */
@@ -23,7 +23,10 @@
 }
 .root h3 {
   color: rgb(250 250 250 / 1);
+  font-weight: bold;
   line-height: 2.2rem;
+  font-size: 1.6rem;
+  opacity: 0.75;
 }
 .root h4 {
   color: rgb(250 250 250 / 1);
@@ -51,6 +54,9 @@
   border-left: 3px solid #ccc;
   margin: auto;
   padding: 0.2rem 1rem;
+}
+.root p {
+  margin: 0.2rem 0;
 }
 
 @media only screen and (min-width: 770px) {
