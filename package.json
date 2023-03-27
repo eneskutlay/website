@@ -9,16 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@portabletext/react": "^2.0.1",
-    "@sanity/image-url": "^1.0.1",
-    "@vercel/analytics": "^0.1.8",
-    "next": "12.2.5",
-    "next-sanity": "^0.8.4",
+    "@portabletext/react": "^2.0.2",
+    "@sanity/image-url": "^1.0.2",
+    "@vercel/analytics": "^0.1.11",
+    "next": "13.2.4",
+    "next-sanity": "^4.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5"
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4"
   }
 }

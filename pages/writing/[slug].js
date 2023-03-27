@@ -26,9 +26,7 @@ export default function Post({ post }) {
           <h1>{post.title}</h1>
           <PortableText value={body} components={componentsConf} />
         </article>
-        <Link href="/writing">
-          <a className={styles.back}>← Go back</a>
-        </Link>
+        <Link href="/writing">← Go back</Link>
       </div>
     </>
   );
