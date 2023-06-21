@@ -30,3 +30,6 @@ You can review the `/sanity-backend/schemas` folder to edit Sanity schemas and t
 
 ### getStaticProps and Data Fetching
 If you haven't heard enough about data fetching and getStaticProps before, you can check the official documentation from [NextJs](https://nextjs.org/docs/basic-features/data-fetching/).
+
+### Screenshots
+![Home Page](https://res.cloudinary.com/eneskutlay/image/upload/v1687358426/websiteVersionThree_yxrslq.png)
