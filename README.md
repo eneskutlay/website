@@ -1,35 +1,34 @@
-##  Overview
--   `/` - Home page.
--   `pages/about` - About page.
--   `pages/writing/[slug]` - Static pre-rendered writing pages using [Sanity](https://www.sanity.io/).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Run Locally
+## Getting Started
+
+First, run the development server:
+
 ```bash
-$ git clone https://github.com/eneskutlay/website
-$ cd website
-$ npm install
-$ npm run dev
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-### Sanity for Backend
-If you haven't heard of [Sanity.io](https://www.sanity.io/)  before, you can visit its website.
-```bash
-$ cd sanity-backend/
-$ npm install
-$ npx @sanity/cli init 
-$ npx @sanity/cli start
-```
-If you have completed all these steps without any problems, Sanity Studio should be running on the ***3333*** port and NextJs should be running on the ***3000*** port.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Editing Navbar Items - Head and Sanity Client
-To edit the Navbar section and Head contents, you need to edit the `lib/data.js` file.
-To connect to Sanity Studio, you need to edit the `lib/client.js` file. For additional instructions, visit the comment lines and the official [Sanity.io](https://www.sanity.io/) website.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Sanity Schemas
-You can review the `/sanity-backend/schemas` folder to edit Sanity schemas and the [Sanity Schemas Documentation](https://www.sanity.io/docs/schema-types) for more information.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### getStaticProps and Data Fetching
-If you haven't heard enough about data fetching and getStaticProps before, you can check the official documentation from [NextJs](https://nextjs.org/docs/basic-features/data-fetching/).
+## Learn More
 
-### Screenshots
-![Home Page](https://res.cloudinary.com/eneskutlay/image/upload/v1687358426/websiteVersionThree_yxrslq.png)
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
