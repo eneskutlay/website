@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Item from "@/components/Item";
 import Social from "@/components/Social";
 import { experience, projects, socials } from "@/lib/data";
