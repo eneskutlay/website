@@ -11,7 +11,7 @@ export const experience = [
     id: 2,
     company: "PATH",
     title: "Intern Developer",
-    date: "2022 - 2022",
+    date: "2022-2022",
     img: "/path.svg",
     href: "https://path.com.tr",
   },
@@ -46,7 +46,7 @@ export const projects = [
 
 export const socials = [
   {
-    href: "https://twitter.com/eneskutlay",
+    href: "https://twitter.com/enesevski",
     imageSrc: "/twitter.svg",
     imageAlt: "Twitter",
   },
@@ -63,6 +63,6 @@ export const socials = [
   {
     href: "mailto:hi@eneskutlay.dev",
     imageSrc: "/mail.svg",
-    imageAlt: "LinkedIn",
+    imageAlt: "Mail",
   },
 ];
