@@ -7,11 +7,7 @@ interface SeoProps {
   ogImageUrl?: string;
 }
 
-const Seo: React.FC<SeoProps> = ({
-  title = "Enes Kutlay",
-  description = "Enes Kutlay's personal website",
-  ogImageUrl = "https://raw.githubusercontent.com/eneskutlay/website/main/public/og.png",
-}) => (
+const Seo: React.FC<SeoProps> = ({ title, description, ogImageUrl }) => (
   <Head>
     <title>{title}</title>
     <link rel="shortcut icon" href="/favicon-32x32.png" />
@@ -22,6 +18,12 @@ const Seo: React.FC<SeoProps> = ({
     <meta name="description" content={description} />
     <meta name="author" content={title} />
     <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:alt" content="Enes Kutlay" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="600" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />

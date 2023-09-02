@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Enes Kutlay",
-  description: "Enes Kutlay personal website",
+  description: "Enes Kutlay's personal website",
   ogImageUrl:
     "https://raw.githubusercontent.com/eneskutlay/website/main/public/og.png",
 };
