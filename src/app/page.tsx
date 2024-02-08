@@ -12,19 +12,22 @@ export default function Home() {
           <div className="flex flex-col">
             <h1 className="mt-[6px] font-semibold">Enes Kutlay</h1>
             <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12">
-              B. 2000, Bursa, Turkey. I&apos;m learning front-end development
-              and digital design.
+              B. 2000, Bursa, Turkey. Currently, I&apos;m dedicated to learning
+              mobile development and front-end technologies.
             </p>
             <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
-              Before this, I studied at Ecole42 and worked as a intern front-end
+              Previously, I studied at ecole42 and worked as an intern front-end
               developer at Path.
             </p>
             <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
-              I enjoy dedicating my days to self-learning in front-end
-              development. In my spare time, I&apos;ve been exploring mobile
-              development, specifically <a className="text-neutral-700 dark:text-neutral-400 underline underline-offset-2 md:underline-offset-4" href="https://github.com/eneskutlay/the-chronicles-of-robin">
-              React Native.
-                </a>{" "}
+              I&apos;m deeply passionate about self-learning in front-end
+              development, with a focus on mastering ReactJs, React Native and
+              NextJs.
+            </p>
+            <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
+              Below, you can explore some of the open-source projects I&apos;ve
+              developed and perhaps discover some of my written works, if
+              available.
             </p>
             <Social socials={socials} />
           </div>
