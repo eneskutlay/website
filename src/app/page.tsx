@@ -13,16 +13,12 @@ export default function Home() {
             <h1 className="mt-[6px] font-semibold">Enes Kutlay</h1>
             <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12">
               B. 2000, Bursa, Turkey. Currently, I&apos;m dedicated to learning
-              mobile development and front-end technologies.
+              mobile development and front-end technologies, with a focus on
+              mastering ReactJs, React Native, and NextJs.
             </p>
             <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
               Previously, I studied at ecole42 and worked as an intern front-end
               developer at Path.
-            </p>
-            <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
-              I&apos;m deeply passionate about self-learning in front-end
-              development, with a focus on mastering ReactJs, React Native and
-              NextJs.
             </p>
             <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
               Below, you can explore some of the open-source projects I&apos;ve
