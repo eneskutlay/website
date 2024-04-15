@@ -21,7 +21,7 @@ export const projects = [
   {
     id: 1,
     name: "The Chronicles of Robin",
-    title: "Text-based CYOA game",
+    title: "Text based CYOA game",
     tag: "Mobile",
     img: "/tcor.svg",
     href: "https://github.com/eneskutlay/the-chronicles-of-robin",
