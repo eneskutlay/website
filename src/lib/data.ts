@@ -46,7 +46,7 @@ export const projects = [
 
 export const socials = [
   {
-    href: "https://twitter.com/enesevski",
+    href: "https://twitter.com/eneskutlay_dev",
     imageSrc: "/twitter.svg",
     imageAlt: "Twitter",
   },
