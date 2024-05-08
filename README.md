@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Screenshot](https://s3-alpha.figma.com/hub/file/5585933441/078a4d58-5dbd-4514-8f00-fc23ac788c11-cover.png)
+---
+### 🚀 Quick start
 
-## Getting Started
+1. **Clone the repository.**
 
-First, run the development server:
+    ```shell
+    git clone https://github.com/eneskutlay/website.git
+    cd website
+    npm install
+    ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+2. **Start developing.**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    ```shell
+    npm start
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Open the source code and start editing!**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Your site is now running at `http://localhost:3000`!
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### 🧐 What's inside?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A quick look at the top-level files and directories you'll see in a Next.js project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    .
+    ├── node_modules
+    ├── public
+    ├── src
+        ├── app
+            ├── favicon.ico
+            ├── global.css
+            ├── layout.tsx
+            ├── manifest.ts
+            ├── page.tsx
+        ├── components
+            ├── Item.tsx
+            ├── Seo.tsx
+            ├── Social.tsx
+        ├── lib
+            ├── data.ts
+    ├── .gitignore
+    ├── next.config.js
+    ├── postcss.config.js
+    ├── tailwind.config.js
+    ├── package.json
+    └── README.md
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Set up your personal information
+You can edit your personal information in the `src/lib/data.ts` file.
+    
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 📚 Libraries
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PostCSS](https://postcss.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+
+### 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](Lhttps://github.com/eneskutlay/website/blob/main/LICENSE) file for details.
+
+
+### 📧 Contact
+
+- [eneskutlay.dev](https://eneskutlay.dev)
+
