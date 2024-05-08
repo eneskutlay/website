@@ -1,5 +1,3 @@
-![Screenshot](https://s3-alpha.figma.com/hub/file/5585933441/078a4d58-5dbd-4514-8f00-fc23ac788c11-cover.png)
----
 ### 🚀 Quick start
 
 1. **Clone the repository.**
