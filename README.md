@@ -1,3 +1,5 @@
+![website image](https://ucarecdn.com/c3660570-48a3-46ec-b31e-57061c8bbee3/-/preview/1000x492/)
+
 ### 🚀 Quick start
 
 1. **Clone the repository.**
@@ -51,6 +53,8 @@ A quick look at the top-level files and directories you'll see in a Next.js proj
 ### Set up your personal information
 You can edit your personal information in the `src/lib/data.ts` file.
     
+### 🎨 Figma File
+Check out the Figma file [here](https://www.figma.com/community/file/1362786254306870284/personal-website-design).
 
 ### 📚 Libraries
 
