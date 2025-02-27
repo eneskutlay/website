@@ -28,6 +28,14 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Minwallet",
+    title: "Personal income and expense tracking app",
+    tag: "Mobile",
+    img: "/minwallet.svg",
+    href: "https://github.com/eneskutlay/minwallet",
+  },
+  {
+    id: 3,
     name: "Next Notion Blog",
     title: "NextJS Blog with Notion as CMS",
     tag: "Web",
@@ -35,13 +43,14 @@ export const projects = [
     href: "https://github.com/eneskutlay/next-notion-blog",
   },
   {
-    id: 3,
+    id: 4,
     name: "Website",
     title: "Few full stack personal websites",
     tag: "Web",
     img: "/website.svg",
     href: "https://github.com/eneskutlay/website",
   },
+
 ];
 
 export const socials = [
