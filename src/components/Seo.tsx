@@ -17,7 +17,7 @@ const Seo: React.FC<SeoProps> = ({ title, description, ogImageUrl }) => (
     <meta name="theme-color" content="#0B0B0B"></meta>
     <meta name="description" content={description} />
     <meta name="author" content={title} />
-    <meta name="twitter:image" content={ogImageUrl ? ogImageUrl : '/og.png'} />
+    <meta name="twitter:image" content={ogImageUrl ? ogImageUrl : "/og.png"} />
     <meta property="og:image:alt" content="Enes Kutlay" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
@@ -26,7 +26,7 @@ const Seo: React.FC<SeoProps> = ({ title, description, ogImageUrl }) => (
     <meta property="og:description" content={description} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImageUrl ? ogImageUrl : '/og.png'} />
+    <meta name="twitter:image" content={ogImageUrl ? ogImageUrl : "/og.png"} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@eneskutlay_dev" />
     <meta

@@ -15,6 +15,14 @@ export const experience = [
     img: "/path.svg",
     href: "https://path.com.tr",
   },
+  {
+    id: 3,
+    company: "Freelancer",
+    title: "Backpacker Traveler",
+    date: "Current",
+    img: "/travel.svg",
+    href: "https://substack.com/@enesevski",
+  },
 ];
 
 export const projects = [
@@ -50,14 +58,13 @@ export const projects = [
     img: "/website.svg",
     href: "https://github.com/eneskutlay/website",
   },
-
 ];
 
 export const socials = [
   {
-    href: "https://twitter.com/eneskutlay_dev",
-    imageSrc: "/twitter.svg",
-    imageAlt: "Twitter",
+    href: "https://substack.com/@enesevski",
+    imageSrc: "/substack.svg",
+    imageAlt: "Substack",
   },
   {
     href: "https://github.com/eneskutlay",
@@ -65,13 +72,13 @@ export const socials = [
     imageAlt: "GitHub",
   },
   {
-    href: "https://medium.com/@eneskutlay",
-    imageSrc: "/medium.svg",
-    imageAlt: "Medium",
-  },
-  {
     href: "mailto:hi@eneskutlay.dev",
     imageSrc: "/mail.svg",
     imageAlt: "Mail",
+  },
+  {
+    href: "https://twitter.com/enesevski",
+    imageSrc: "/twitter.svg",
+    imageAlt: "Twitter",
   },
 ];

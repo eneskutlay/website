@@ -7,23 +7,25 @@ export default function Home() {
 
   return (
     <div className=" mx-auto subpixel-antialiased text-base md:text-lg">
-      <div className="md:max-w-[460px] m-8 md:m-28 text-neutral-700 dark:text-neutral-300">
+      <div className="md:max-w-[460px] m-6 md:m-24 text-neutral-700 dark:text-neutral-300">
         <div className="flex gap-x-4">
           <div className="flex flex-col">
             <h1 className="mt-[6px] font-semibold">Enes Kutlay</h1>
-            <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12">
-              B. 2000, Bursa, Turkey. Currently, I&apos;m dedicated to learning
-              mobile development and front-end technologies, with a focus on
-              mastering ReactJs, React Native, and NextJs.
+            <p className="leading-[25px] mt-6 text-neutral-500 dark:text-neutral-400 w-11/12">
+              B. 2000, Bursa, Turkey. Currently, I&apos;m focusing on web and
+              mobile development for small businesses, as well as developing
+              growth-oriented digital marketing and social media strategies.
+              I&apos;m working to improve myself in the field of consulting.
             </p>
-            <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
-              Previously, I studied at ecole42 and worked as an intern front-end
-              developer at Path.
+            <p className="leading-[25px] mt-6 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
+              previously studied at Ecole42 and worked as an intern front-end
+              developer at Path. I&apos;m currently continuing my career as a
+              freelancer.
             </p>
-            <p className="leading-[25px] mt-8 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
-              Below, you can explore some of the open-source projects I&apos;ve
-              developed and perhaps discover some of my written works, if
-              available.
+            <p className="leading-[25px] mt-6 text-neutral-500 dark:text-neutral-400 w-11/12 lowercase">
+              I&apos;ve been a backpacker for about two years now, developing
+              open-source projects and publishing my adventures on Substack. You
+              can check out the links below for more.
             </p>
             <Social socials={socials} />
           </div>
