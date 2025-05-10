@@ -62,7 +62,7 @@ export const projects = [
 
 export const socials = [
   {
-    href: "https://substack.com/@enesevski",
+    href: "https://substack.com/@hieneskutlay",
     imageSrc: "/substack.svg",
     imageAlt: "Substack",
   },
@@ -77,7 +77,7 @@ export const socials = [
     imageAlt: "Mail",
   },
   {
-    href: "https://twitter.com/hienes_dev",
+    href: "https://twitter.com/hieneskutlay",
     imageSrc: "/twitter.svg",
     imageAlt: "Twitter",
   },
