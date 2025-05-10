@@ -77,7 +77,7 @@ export const socials = [
     imageAlt: "Mail",
   },
   {
-    href: "https://twitter.com/enesevski",
+    href: "https://twitter.com/hienes_dev",
     imageSrc: "/twitter.svg",
     imageAlt: "Twitter",
   },
